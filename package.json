@@ -2,9 +2,23 @@
   "private": true,
   "dependencies": {
     "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "serve": "11.2.0"
+    "react": "latest",
+    "react-dom": "latest",
+    "serve": "11.2.0",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "markdown-to-jsx": "^7.1.7",
+    "prop-types": "latest",
+    "react-final-form": "^6.5.9",
+    "react-material-ui-carousel": "^3.4.2"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
   },
   "scripts": {
     "dev": "next",
