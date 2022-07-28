@@ -31,7 +31,6 @@
   "name": "internft-website",
   "version": "1.0.0",
   "description": "Landing Website for InterNFT",
-  "main": "index.js",
   "repository": "https://github.com/AssetMantle/interNFT-website.git",
   "author": "kombos <kamlesh@assetmantle.one>",
   "license": "MIT"
