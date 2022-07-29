@@ -1,16 +1,18 @@
 import * as React from "react";
+import Contributors from "../views/Contributors";
+import Footer from "../views/Footer";
 import HeroSection from "../views/HeroSection";
-import HowItWorks from "../views/HowItWorks";
-import ProductValues from "../views/ProductValues";
-import WhyTrustUs from "../views/WhyTrustUs";
+import Initiatives from "../views/Initiatives";
+import WorkingGroup from "../views/WorkingGroup";
 
 export default function Index() {
   return (
     <>
       <HeroSection />
-      <HowItWorks />
-      <WhyTrustUs />
-      <ProductValues />
+      <WorkingGroup />
+      <Contributors />
+      <Initiatives />
+      <Footer />
     </>
   );
 }

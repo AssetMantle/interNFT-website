@@ -1,21 +1,24 @@
-import { createTheme } from '@mui/material/styles';
-import { green, grey, red } from '@mui/material/colors';
+import { createTheme } from "@mui/material/styles";
+import { green, grey, red } from "@mui/material/colors";
 
 const rawTheme = createTheme({
   palette: {
+    navBg: "#040404cc",
+    gradientDark:
+      "linear-gradient(270.23deg, #111111 51.94%, rgba(17, 17, 17, 0) 98.63%)",
     primary: {
-      light: '#F7DE9F',
-      main: '#FFD365',
-      dark: '#E8AB12',
+      light: "#FFFDFA",
+      main: "#FFD365",
+      dark: "#111111",
     },
     secondary: {
-      light: '#171616',
-      main: '#040404',
-      dark: '#000000',
+      light: "#171616",
+      main: "#040404",
+      dark: "#21211E",
     },
     warning: {
-      main: '#ffc071',
-      dark: '#ffb25e',
+      main: "#F2AF13",
+      dark: "#ffb25e",
     },
     error: {
       light: red[50],
@@ -29,7 +32,7 @@ const rawTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: "'Work Sans', sans-serif",
+    fontFamily: "'Montserrat', sans-serif",
     fontSize: 14,
     fontWeightLight: 300, // Work Sans
     fontWeightRegular: 400, // Work Sans
@@ -40,8 +43,8 @@ const rawTheme = createTheme({
 const fontHeader = {
   color: rawTheme.palette.text.primary,
   fontWeight: rawTheme.typography.fontWeightMedium,
-  fontFamily: "'Roboto Condensed', sans-serif",
-  textTransform: 'uppercase',
+  fontFamily: "'Montserrat', sans-serif",
+  textTransform: "uppercase",
 };
 
 const theme = {
@@ -60,13 +63,15 @@ const theme = {
     h1: {
       ...rawTheme.typography.h1,
       ...fontHeader,
+      fontSize: 40,
+      lineHeight: "120%",
       letterSpacing: 0,
-      fontSize: 60,
+      fontWeight: 600,
     },
     h2: {
       ...rawTheme.typography.h2,
       ...fontHeader,
-      fontSize: 48,
+      fontSize: 28,
     },
     h3: {
       ...rawTheme.typography.h3,
@@ -95,9 +100,13 @@ const theme = {
     body1: {
       ...rawTheme.typography.body2,
       fontWeight: rawTheme.typography.fontWeightRegular,
-      fontSize: 16,
+      fontSize: 20,
     },
     body2: {
+      ...rawTheme.typography.body1,
+      fontSize: 16,
+    },
+    body3: {
       ...rawTheme.typography.body1,
       fontSize: 14,
     },
