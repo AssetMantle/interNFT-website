@@ -3,7 +3,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import * as React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import theme from "../config/theme";
 
 // Client-side cache, shared for the whole session of the user in the browser.
