@@ -11,9 +11,7 @@ const sectionStyles = {
   backgroundSize: "100%, cover",
   backgroundPosition: "bottom left, top left",
   margin: "0 auto",
-  "@media (max-width:900px)": {
-    textAlign: "center",
-  },
+  textAlign: { xs: "center", sm: "center", md: "left" },
 };
 
 const containerStyles = {

@@ -1,15 +1,12 @@
-import { Box, Grid, Link } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
-import Typography from "../components/Typography";
 
 const sectionStyle = {
   mt: 13,
   paddingTop: "7px",
   color: "primary.light",
-  "@media (max-width:900px)": {
-    textAlign: "center",
-  },
+  textAlign: { xs: "center", sm: "center", md: "left" },
 };
 
 export default function Contributors() {

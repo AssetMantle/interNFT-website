@@ -1,7 +1,6 @@
-import { Box, Container } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import InitiativeCard from "../components/InitiativeCard";
-import Typography from "../components/Typography";
 
 const sectionStyle = {
   mt: 13,
