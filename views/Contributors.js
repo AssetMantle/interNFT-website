@@ -1,7 +1,6 @@
-import { Box, Grid, Link } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
-import Typography from "../components/Typography";
 
 const sectionStyle = {
   mt: 13,

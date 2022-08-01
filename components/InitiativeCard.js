@@ -1,7 +1,5 @@
-import { Box } from "@mui/material";
-import { display } from "@mui/system";
+import { Box, Typography } from "@mui/material";
 import React from "react";
-import Typography from "./Typography";
 
 const ContainerStyle = {
   width: "min(248px,100%)",
