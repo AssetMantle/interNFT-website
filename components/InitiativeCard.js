@@ -11,10 +11,10 @@ const ContainerStyle = {
   textAlign: "center",
   mx: "auto",
   gap: "42px",
-  "&:first-child": {
+  "&:first-of-type": {
     mx: 0,
   },
-  "&:last-child": {
+  "&:last-of-type": {
     mx: 0,
   },
   "@media (max-width:900px)": {
