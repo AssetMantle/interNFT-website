@@ -6,9 +6,7 @@ const sectionStyle = {
   mt: 13,
   paddingTop: "7px",
   color: "primary.light",
-  "@media (max-width:900px)": {
-    textAlign: "center",
-  },
+  textAlign: { xs: "center", sm: "center", md: "left" },
 };
 
 export default function Contributors() {
