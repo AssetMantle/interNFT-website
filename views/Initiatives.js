@@ -25,11 +25,13 @@ export default function Initiatives() {
       image: "github-logo",
       text: "Requests for comments ",
       iWidth: "180px",
+      href: "https://github.com/interNFT",
     },
     {
       image: "reference-logo",
       text: "reference implementations",
       iWidth: "126px",
+      href: "https://github.com/cosmos/modules/tree/master/incubator/nft",
     },
     {
       image: "logo-big",

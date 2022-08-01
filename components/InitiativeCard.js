@@ -11,6 +11,7 @@ const ContainerStyle = {
   textAlign: "center",
   mx: "auto",
   gap: "42px",
+  textDecoration: "none",
   "&:first-of-type": {
     mx: 0,
   },
@@ -27,9 +28,14 @@ const textStyle = {
   textTransform: "uppercase",
 };
 
-export default function InitiativeCard({ image, text, iWidth }) {
+export default function InitiativeCard({ image, text, iWidth, href }) {
   return (
-    <Box sx={ContainerStyle}>
+    <Box
+      sx={ContainerStyle}
+      component="a"
+      href={href}
+      onClick={(e) => !href && e.preventDefault()}
+    >
       <Box sx={{ display: "flex", flex: "1" }}>
         <img
           src={`/static/${image}.svg`}

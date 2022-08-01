@@ -59,7 +59,11 @@ export default function WorkingGroup() {
         <Box sx={joinStyle}>
           <Typography component="p" variant="body2" color="inherit">
             Interested in Joining the InterNFT Working Group?{" "}
-            <Link underline="none" sx={{ cursor: "pointer" }}>
+            <Link
+              underline="none"
+              href="https://t.me/joinchat/V0HEvpFn6TOVTauH"
+              sx={{ cursor: "pointer" }}
+            >
               Click here!
             </Link>
           </Typography>
@@ -67,7 +71,12 @@ export default function WorkingGroup() {
             Want to Participate in developing next-generation Interchain
             standards and share your use-case requirements?
           </Typography>
-          <Link underline="none" variant="body2" sx={{ cursor: "pointer" }}>
+          <Link
+            underline="none"
+            href="https://github.com/interNFT/nft-rfc/blob/main/nft-rfc-002.md"
+            variant="body2"
+            sx={{ cursor: "pointer" }}
+          >
             Click to participate
           </Link>
         </Box>

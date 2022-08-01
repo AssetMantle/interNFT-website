@@ -45,11 +45,11 @@ export default function Header(props) {
   const navItems = [
     {
       name: "About",
-      link: "",
+      link: "https://docs.internft.org/",
     },
     {
       name: "Standards",
-      link: "",
+      link: "https://github.com/interNFT/nft-rfc",
     },
   ];
   const container =

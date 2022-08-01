@@ -40,12 +40,20 @@ export default function Contributors() {
                 <br />
                 <br />
                 <br />
-                <Link underline="hover" sx={{ cursor: "pointer" }}>
+                <Link
+                  underline="hover"
+                  href="https://interchain.io/"
+                  sx={{ cursor: "pointer" }}
+                >
                   Interchain Foundation
                 </Link>{" "}
                 grants along with the collaborative development of developers
                 from{" "}
-                <Link underline="hover" sx={{ cursor: "pointer" }}>
+                <Link
+                  underline="hover"
+                  href="https://www.w3.org/"
+                  sx={{ cursor: "pointer" }}
+                >
                   World Wide Web Consortium (W3C)
                 </Link>{" "}
                 and other development teams worked to further expand the
@@ -53,7 +61,11 @@ export default function Contributors() {
                 <br />
                 <br />
                 <br />
-                <Link underline="none" sx={{ cursor: "pointer" }}>
+                <Link
+                  underline="none"
+                  href="https://blog.cosmos.network/progress-report-interchain-nft-metadata-standards-94770dfe3bb1"
+                  sx={{ cursor: "pointer" }}
+                >
                   LEARN MORE
                 </Link>
               </Typography>
